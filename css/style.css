@@ -1,0 +1,39 @@
+.resume {
+    background-image: url("../images/Logo_Lemon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background-color: rgba(255, 195, 195, 0.5);
+}
+h1 {
+    color: rgb(0, 0, 0);
+}
+h2 {
+    color: rgb(57, 57, 57);
+}
+header p {
+    text-align: justify;
+}
+.resume img {
+    width: 25%;
+}
+footer {
+    background-color: rgb(165, 0, 0);
+}
+footer h2, footer li {
+    color: white;
+}
+footer ul {
+    text-decoration: none;
+}
+
+.content-wrapper {
+    background-color: rgba(255, 195, 195, 0.5);
+}
+button {
+    background-color: rgb(70, 70, 70);
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
