@@ -1,6 +1,3 @@
-* {
-    text-wrap: wrap;
-}
 html {
     height: 100%;
 }
@@ -8,17 +5,20 @@ h1 {
     font-family: "Matemasie", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-wrap: wrap;
 }
 h2 {
     font-family: "Playwrite IT Moderna", cursive;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    text-wrap: wrap;
 }
 p {
     font-family: "Baskervville", serif;
     font-weight: 400;
     font-style: normal;
+    text-wrap: wrap;
 }
 .resume {
     margin: 0;
@@ -68,6 +68,14 @@ header {
         position: relative;
         box-shadow: 3px 3px 3px black;
         border: 2px solid rgb(104, 24, 143);
+    }
+    #projects, #work, #education {
+        background-color: rgb(247, 222, 178, 0.8);
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    ul {
+        list-style: circle;
     }
 }
 footer {
